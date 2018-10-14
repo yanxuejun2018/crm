@@ -23,7 +23,7 @@ import java.util.List;
  * @author Steven
  */
 @Controller
-@RequestMapping("customer")
+@RequestMapping("/customer")
 public class CustomerController {
 
     @Autowired
@@ -42,7 +42,7 @@ public class CustomerController {
     @Value("${customer_level_type}")
     private String customer_level_type;
 
-    @RequestMapping("list")
+    @RequestMapping("/list")
     public String list(Model model, QueryVo vo) {
 
         // 查询来源
@@ -65,7 +65,7 @@ public class CustomerController {
         return "customer";
     }
 
-    @RequestMapping("edit")
+    @RequestMapping("/edit")
     @ResponseBody
     public Customer edit(Integer id) {
         Customer byId = service.getCustomerById(id);
@@ -87,7 +87,7 @@ public class CustomerController {
     }
 
     //删除用户信息
-    @RequestMapping("dalete")
+    @RequestMapping("/dalete")
     public String dalete(Integer id) {
         String msg = "1";
         try {
@@ -99,7 +99,7 @@ public class CustomerController {
         return msg;
     }
 
-    @RequestMapping("myTag")
+    @RequestMapping("/myTag")
     public String myTage() {
         return "myTag";
     }
