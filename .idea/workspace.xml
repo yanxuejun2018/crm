@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="boot-crm:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0416ce3-bde3-4681-b42d-8cab68fbb83d" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="crm@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="crm: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="base_dict: table" type="98d5ac3d:MysqlImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="849">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-crm/src/config/SqlMapConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-84">
+              <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-trans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-trans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="jsf" />
+        <option value="facelets" />
+        <option value="Jsp File" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/customer.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/utils/NavigationTag.java" />
+        <option value="$PROJECT_DIR$/boot-crm/web/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/log4j.properties" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/utils/Mytop.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/utils/MyTopImpl.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/utils/MyTop.java" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/MyTap.xhtml" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/MyTop.xhtml" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/tld/MyTop.tld" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/MyTop.jsp" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/utils/MyTag.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BiseDictMapper.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BiseDictMapper.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BiseDictService.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BiseDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/pojo/BiseDict.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/test/Test.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/test/TestDemo.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BaseDictMapper.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/pojo/BaseDict.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BaseDictService.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BaseDictMapper.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BaseDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/springmvc.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/clien/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/itheima/crm/controller/pojo/QueryVo.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/utils/Page.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/jdbc.properties" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-trans.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/config/spring/springmvc.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/tld/commons.tld" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/BaseDictService.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/BaseDictServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/tld/myTag.tld" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/myTag.jsp" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/CustomerMapper.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/CustomerServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/CustomerMapper.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/customer.jsp" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/controller/CustomerController.java" />
+        <option value="$PROJECT_DIR$/boot-crm/web/index.jsp" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/pojo/QueryVo.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/BaseDictMapper.java" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/BaseDictMapper.xml" />
+        <option value="$PROJECT_DIR$/boot-crm/src/com/yxj/crm/pojo/Customer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <option name="showIgnored" value="false" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1020" />
+    <option name="y" value="125" />
+    <option name="width" value="1400" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="crm" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ClientSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ClientSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-crm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="E:/BaiduNetdiskDownload/01课前资料(1)/01课前资料/工程" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.yxj.clien.utils" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ClientSystem\boot-crm\src\com\yxj\crm\mapper" />
+      <recent name="F:\ClientSystem\boot-crm\src\com\yxj\crm" />
+      <recent name="F:\ClientSystem\boot-crm\src\com\itheima\crm" />
+      <recent name="F:\ClientSystem\boot-crm\src\com\itheima\crm\controller" />
+      <recent name="F:\ClientSystem\boot-crm\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\ClientSystem\boot-crm\src\config\spring" />
+      <recent name="F:\ClientSystem\boot-crm\src\config" />
+      <recent name="F:\ClientSystem\boot-crm\web\WEB-INF\jsp" />
+      <recent name="F:\ClientSystem\boot-crm\web" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Tomcat 8.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.52" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="boot-crm:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_0_52_ClientSystem" />
+      </server-settings>
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <log_file checked="false" alias="Tomcat Localhost Log" path="%IDEA_RUN:CATALINA_BASE%/logs/localhost.*" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="53001" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="53002" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="boot-crm:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0416ce3-bde3-4681-b42d-8cab68fbb83d" name="Default" comment="" />
+      <created>1536057345866</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536057345866</updated>
+      <workItem from="1536057347557" duration="936000" />
+      <workItem from="1536058370151" duration="2145000" />
+      <workItem from="1536063881058" duration="7292000" />
+      <workItem from="1536073398374" duration="3066000" />
+      <workItem from="1536076813580" duration="930000" />
+      <workItem from="1536142894306" duration="18765000" />
+      <workItem from="1536205924612" duration="644000" />
+      <workItem from="1536206691175" duration="90000" />
+      <workItem from="1536206814790" duration="190000" />
+      <workItem from="1536207063818" duration="697000" />
+      <workItem from="1536207970998" duration="1276000" />
+      <workItem from="1536209280937" duration="1244000" />
+      <workItem from="1536211160287" duration="3050000" />
+      <workItem from="1536224824057" duration="20000" />
+      <workItem from="1536225212060" duration="4504000" />
+      <workItem from="1536309180563" duration="377000" />
+      <workItem from="1536312553991" duration="20911000" />
+      <workItem from="1536656011275" duration="37000" />
+      <workItem from="1537017695598" duration="7000" />
+      <workItem from="1537017872581" duration="614000" />
+      <workItem from="1537881404010" duration="309000" />
+      <workItem from="1537970085035" duration="3699000" />
+      <workItem from="1538029336259" duration="1651000" />
+      <workItem from="1538031586149" duration="2278000" />
+      <workItem from="1538570873184" duration="89000" />
+      <workItem from="1538571639110" duration="53000" />
+      <workItem from="1538571994556" duration="684000" />
+      <workItem from="1538573957798" duration="53000" />
+      <workItem from="1538574098956" duration="5000" />
+      <workItem from="1538574145058" duration="858000" />
+      <workItem from="1538576129111" duration="485000" />
+      <workItem from="1538576734757" duration="197000" />
+      <workItem from="1538657457387" duration="801000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="BaseDictServiceImpl_getBaseDictByCode - 2018.09.06 at 12h 01m 47s.xml">
+      <configuration name="BaseDictServiceImpl.getBaseDictByCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseDictServiceImpl_getBaseDictByCode - 2018.09.06 at 12h 02m 40s.xml">
+      <configuration name="BaseDictServiceImpl.getBaseDictByCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseDictServiceImpl_getBaseDictByCode - 2018.09.06 at 12h 13m 42s.xml">
+      <configuration name="BaseDictServiceImpl.getBaseDictByCode" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_TestBase - 2018.09.06 at 12h 40m 02s.xml">
+      <configuration name="TestDemo.TestBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_TestBase - 2018.09.06 at 12h 43m 49s.xml">
+      <configuration name="TestDemo.TestBase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDemo_TestBase - 2018.09.06 at 12h 44m 37s.xml">
+      <configuration name="TestDemo.TestBase" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="77957000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003362" side_tool="true" weight="0.33136967" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="JRebel Console" order="7" sideWeight="0.5003362" side_tool="true" weight="0.3298969" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="JRebel Executor" order="7" weight="0.27982327" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32952252" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49966374" weight="0.33136967" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3298969" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8796234" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49966374" weight="0.3298969" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992636" visible="true" weight="0.25737265" />
+      <window_info anchor="bottom" id="Problems" order="8" weight="0.3298969" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info id="JRebel" order="2" sideWeight="0.50073636" side_tool="true" weight="0.16476126" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3298969" />
+      <window_info anchor="right" id="Mybatis datasource" order="3" side_tool="true" weight="0.32952252" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-service.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/pojo/BaseDict.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BaseDictMapper.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-dao.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BaseDictService.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/springmvc.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/controller/CustomerController.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/mapper/BaseDictMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/clien/service/BaseDictServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-trans.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/controller/mapper/BaseDictMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/controller/mapper/CustomerMapper.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/controller/pojo/QueryVo.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/utils/Page.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/controller/CustomerController.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/mapper/BaseDictMapper.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/pojo/BaseDict.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/service/impl/BaseDictServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/itheima/crm/utils/MyTag.java" />
+    <entry file="jar://F:/Tomcat/apache-tomcat-8.0.52/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="223" selection-start-line="223" selection-end-line="223" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/utils/NavigationTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/utils/MyTag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-122">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/BaseDictService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/tld/myTag.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/tld/commons.tld">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/utils/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/myTag.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/jsp/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7980">
+          <caret line="285" column="81" selection-start-line="285" selection-start-column="46" selection-end-line="285" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/CustomerServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/CustomerMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/pojo/BaseDict.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/CustomerMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/BaseDictMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/service/BaseDictServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="17" column="56" selection-start-line="17" selection-start-column="56" selection-end-line="17" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/controller/CustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="812">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/00248384-60fb-4bdd-bbea-684c5f612d8f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://00248384-60fb-4bdd-bbea-684c5f612d8f/schema/crm/table/base_dict">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/mapper/BaseDictMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/crm.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="46" column="30" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/com/yxj/crm/pojo/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot-crm/src/config/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="849">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>boot-crm:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>boot-crm</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
